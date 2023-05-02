@@ -27,7 +27,7 @@ TARGET_OTA_ASSERT_DEVICE := a505fn,a50,a50xx,a50dd
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
 ## Manifest
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/device_manifest.xml
+##DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/device_manifest.xml
 
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
